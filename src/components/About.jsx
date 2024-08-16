@@ -16,7 +16,7 @@ const About = () => {
             </div>
             
             <span className="text-5xl font-semibold font-serif flex justify-center items-center my-10 md:my-5 lg:my-10">My Skills</span>
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 justify-center items-center mx-4 md:mx-6 lg:mx-6 px-4"
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4  justify-center items-center mx-4 md:mx-6 lg:mx-6 px-4"
             style={{fontFamily:"playfair dispaly "}}>
                 {skills && skills.map((n) => (
                     <div key={n.id} className="w-[16rem] md:w-[18rem] lg:w-[18rem] h-[18rem] rounded-lg bg-gray-50 shadow-lg drop-shadow-lg flex flex-col justify-center items-center my-2"
